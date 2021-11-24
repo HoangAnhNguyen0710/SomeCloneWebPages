@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+html {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+
+/* 
+ */
+
+#container {}
+
+
+/* #header-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+} */
+
+#header {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    position: relative;
+    /* text-align: center; */
+}
+
+#nav {
+    background-color: rgb(255, 255, 255);
+    /* height: 5vh; */
+    width: 100%;
+    padding: 8px 16px;
+    position: fixed;
+    letter-spacing: 4px;
+    box-shadow: 1px 1px 1px;
+    z-index: 2;
+    /* opacity: 0.8; */
+}
+
+
+/* Thuộc tính z-index thiết lập thứ tự xếp chồng nhau của một thành phần vị trí.
+
++ Thứ tự chồng nhau được sắp xếp dựa theo giá trị số,
+thành phần HTML nào có chỉ số z-index cao hơn sẽ nằm trên, ngược lại sẽ nằm dưới, giá trị mặc định là 0.
++ Có thể sử dụng số âm.
++ Giá trị tốt nhất là không sử dụng đơn vị.
+
+Chú ý: z-index chỉ làm việc cùng với thuộc tính position. */
+
+a:visited {
+    color: black;
+}
+
+#header>img {
+    width: 100%;
+}
+
+#nav>a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+#nav a {
+    text-decoration: none;
+    /* line-height: 25px; */
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+#nav a:hover {
+    display: block;
+    color: #000;
+    background-color: #ccc;
+}
+
+#slider {
+    /* position: relative; */
+}
+
+#slider_content_container>h1 {
+    font-size: 36px;
+    letter-spacing: 3px;
+    color: #fff;
+    margin: 10px 0px;
+    position: absolute;
+    display: inline-block;
+    left: 40%;
+    top: 48%;
+    opacity: 0.8;
+}
+
+#slider_img_br {
+    padding: 10.5px 16px;
+    background-color: #000;
+}
+
+@media only screen and (min-width: 1000px) {
+    #nav a {
+        min-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #nav a {
+        min-width: 150px;
+    }
+    #nav-projects,
+    #nav-contact,
+    #nav-about {
+        display: none;
+    }
+}
+
+.house-container {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    /* position: absolute; */
+    vertical-align: middle;
+    text-align: center;
+    padding: 8px;
+    padding-top: 0px;
+}
+
+#content {
+    width: auto;
+    /* background-color: rgb(146, 22, 22); */
+    /* height: 800px; */
+    padding: 8px 16px;
+}
+
+#slider_img {
+    width: 100%;
+}
+
+.content-heading>h3 {
+    margin: 10px 0px;
+    padding: 16px 0px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    /* background-color: aqua; */
+}
+
+.content-heading {
+    padding: 32px 16px;
+}
+
+.display_container {
+    display: inline-block;
+    width: 24.6%;
+    /* position: relative; */
+    margin: 0px 0px 16px;
+    padding: 0 8px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .display_container {
+        width: 49.2%;
+    }
+    /* .content-heading {
+        vertical-align: middle;
+        /* text-align: center; */
+    /* padding: 8px;
+    padding-top: 0px; */
+}
+
+@media only screen and (max-width: 500px) {
+    .display_container {
+        width: 99.9%;
+    }
+    #slider_img_architects {
+        display: none;
+    }
+    /* .content-heading>h3 {
+        margin: 10px 14px;
+        padding: 16px 0px;
+    } */
+}
+
+.display_container>img {
+    width: 100%;
+}
+
+.img-comment {
+    font-size: 15px;
+    position: absolute;
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+}
+
+
+/* 
+#about-section {
+    width: auto;
+    padding: 32px 16px;
+} */
+
+#about-content {
+    padding: 0px 16px;
+    margin: 15px 0px;
+    text-align: left;
+}
+
+.about_img {
+    filter: contrast(1.1) brightness(1.1) grayscale(0.8);
+}
+
+.about_img_item>h3 {
+    font-size: 24px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.about_img_item>.position,
+.about_img_item>.infor {
+    font-size: 15px;
+    font-family: "Verdana", sans-serif;
+    text-align: left;
+    opacity: 0.6;
+    margin: 15px 0;
+}
+
+.about_img_item>.infor {
+    opacity: 1;
+}
+
+#contact {
+    padding: 32px 16px 8px 16px;
+    width: auto;
+}
+
+#contact-description {
+    margin: 15px 0px;
+    font-size: 15px;
+}
+
+.contact-input {
+    width: 100%;
+    padding: 8px;
+    margin: 16px 0px;
+    display: block;
+    opacity: 0.6;
+}
+
+.contact-input-button {
+    margin: 16px 0px;
+    padding: 8px 16px;
+    font-size: 15px;
+    color: #fff;
+    background-color: black;
+}
+
+#footer {
+    padding: 16px;
+    background-color: #000;
+}
+
+#footer-content,
+#footer-content a {
+    margin: 15px 0px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+
+/* @media only screen and (max-width: 500px) {
+    #about-content {
+        padding: 0px 16px;
+        margin: 15px 14px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #about-section {
+        padding: 0px 16px;
+        margin: 15px 10px;
+    }
+} */
