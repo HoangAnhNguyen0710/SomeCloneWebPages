@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="assets/themify-icons-font/themify-icons/themify-icons.css">
+    <!-- File Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- CSS tùy chỉnh của bạn ở dưới này -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>The Cafe</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class=" page-nav fixed-top" style="padding: 8px 16px;">
+            <ul class="nav nav-justified ">
+                <li class="nav-item ">
+                    <a href="#" class="nav-link ">HOME</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="#about-section" class="nav-link ">ABOUT</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="#menu-section" class="nav-link ">MENU</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="#contact-section" class="nav-link ">WHERE</a>
+                </li>
+            </ul>
+        </nav>
+        <header class="page-header bgimg ">
+            <span class="img-content text-center" style="font-size: 90px;">the<br>Cafe</span>
+            <div class="img-tag--container">
+                <span class="img-tag">Open from 6am to 5pm</span>
+            </div>
+            <div class="img-address--container">
+                <span class="img-address">15 Adr street, 5015</span>
+            </div>
+        </header>
+
+        <div class="content ">
+            <section id="about-section">
+                <div class="content--section-container">
+                    <h5 class="content--about-heading">
+                        <span class="content--heading--span">ABOUT THE CAFE</span>
+                    </h5>
+                    <p class="content--paragraph">The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="content--paragraph">In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+                    <div class="content--about-quote">
+                        <i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i>
+                        <p class="content--about-paragraph">Chef, Coffeeist and Owner: Liam Brown</p>
+                    </div>
+                    <img src="assets/img/coffeeshop.jpg" alt="" class="content--about-image mt-3" style="width: 100%;">
+                    <p class="content--paragraph"><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+                    <p class="content--paragraph"><strong>Address:</strong> 15 Adr street, 5015, NY</p>
+                </div>
+            </section>
+            <section id="menu-section">
+                <div class="content--section-container">
+                    <h5 class="content--section-heading">
+                        <span class="content--heading--span">THE MENU</span>
+                    </h5>
+                    <!-- Nav tabs -->
+                    <div class="content--menu-tablist-container">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item content--menu-nav-item-name">
+                                <a class="nav-link active" data-toggle="tab" href="#eat" style="color: black;">Eat</a>
+                            </li>
+                            <li class="nav-item content--menu-nav-item-name">
+                                <a class="nav-link " data-toggle="tab" href="#drink" style="color: black;">Drink</a>
+                            </li>
+                        </ul>
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div id="eat" class="container tab-pane active" style="color: black;">
+                                <h5 class="content--menu-tab-content-item">Bread Basket</h5>
+                                <p class="content--menu-tab-content-description">Assortment of fresh baked fruit breads and muffins 5.50</p>
+                                <br>
+                                <h5 class="content--menu-tab-content-item">Honey Almond Granola with Fruits</h5>
+                                <p class="content--menu-tab-content-description">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                                <br>
+                                <h5 class="content--menu-tab-content-item">Belgian Waffle</h5>
+                                <p class="content--menu-tab-content-description">Vanilla flavored batter with malted flour 7.50</p>
+                                <br>
+                                <h5 class="content--menu-tab-content-item">Scrambled eggs</h5>
+                                <p class="content--menu-tab-content-description">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                                <br>
+                                <h5 class="content--menu-tab-content-item">Blueberry Pancakes</h5>
+                                <p class="content--menu-tab-content-description">With syrup, butter and lots of berries 8.50</p>
+                            </div>
+                            <div id="drink" class="container tab-pane fade" style="color: black;">
+                                <h5 class="content--menu-tab-content-item">Coffee</h5>
+                                <p class="content--menu-tab-content-description">Regular coffee 2.50</p>
+                                <br>
+                                <h5 class="content--menu-tab-content-item">Chocolato</h5>
+                                <p class="content--menu-tab-content-description">Chocolate espresso with milk 4.50</p>
+                                <br>
+                                <h5 class="content--menu-tab-content-item">Corretto</h5>
+                                <p class="content--menu-tab-content-description">Whiskey and coffee 5.00</p>
+                                <br>
+                                <h5 class="content--menu-tab-content-item">Iced tea</h5>
+                                <p class="content--menu-tab-content-description">Hot tea, except not hot 3.00</p>
+                                <br>
+                                <h5 class="content--menu-tab-content-item">Soda</h5>
+                                <p class="content--menu-tab-content-description">Coke, Sprite, Fanta, etc. 2.50</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assets/img/coffeehouse2.jpg" alt="" class="contensection-image " style=" margin-top: 32px; width: 100%;">
+                </div>
+            </section>
+            <section id="contact-section">
+                <div class="content--section-container" style="padding-bottom: 32px;">
+                    <h5 class="content--section-heading">
+                        <span class="content--heading--span">WHERE TO FIND US</span>
+                    </h5>
+                    <p class="content--paragraph">Find us at some address at some place.</p>
+                    <img src="assets/img/map.jpg" alt="" class="content-where-to-find-image " style="width: 100%;">
+                    <p class="content--paragraph">
+                        <span class="content--heading--span" style="text-align: left; color: #fff;">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria
+                        of them all, both look and taste.
+                    </p>
+                    <p class="content--paragraph"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+                    <form action="#">
+                        <p class="content--paragraph">
+                            <input type="text" placeholder="Name" class="content--contact-input">
+                        </p>
+                        <p class="content--paragraph">
+                            <input type="number" placeholder="How many people" required="" name="People" class="content--contact-input">
+                        </p>
+                        <p class="content--paragraph">
+                            <input type="datetime-local" placeholder="Date and time" required="" name="date" value="2020-11-16T20:00" class="content--contact-input">
+                        </p>
+                        <p class="content--paragraph">
+                            <input type="text" placeholder="Message \ Special requirements" required="" name="Message" class="content--contact-input">
+                        </p>
+                        <p class="content--paragraph">
+                            <button class="content--contact-form-submit-button">SEND MESSAGE</button>
+                        </p>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <footer class="page-footer">
+            <p class="content--paragraph">Powered by <a href="#">w3.css</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>

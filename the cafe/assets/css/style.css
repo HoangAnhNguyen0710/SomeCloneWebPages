@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inconsolata", sans-serif;
+    letter-spacing: normal;
+    line-height: 1.5;
+}
+
+html {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.container-fluid {
+    display: block;
+    height: 100vh;
+    padding: 0px !important;
+}
+
+.page-header {
+    display: block;
+    font-size: 15px;
+    /* position: relative; */
+}
+
+.page-nav {
+    background-color: black;
+    position: fixed;
+}
+
+.bgimg {
+    filter: grayscale(50%);
+    background-image: url('../img/coffeehouse.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 75%;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-item:hover,
+.nav-link:hover {
+    background-color: #ccc;
+    color: rgb(0, 0, 0);
+}
+
+.img-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.img-tag--container {
+    position: absolute;
+    bottom: 0px;
+    padding: 12px 24px;
+}
+
+.img-tag {
+    display: inline-block;
+    color: #fff;
+    padding: 0px 8px;
+    background-color: black;
+}
+
+.img-address--container {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    padding: 12px 24px;
+}
+
+.img-address {
+    color: #fff;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 500px) {
+    .img-tag--container {
+        display: none;
+    }
+}
+
+.content {
+    position: relative;
+    align-items: center;
+    padding: 0.18px 16px;
+    font-size: 18px;
+    background-color: #fdf5e6!important;
+    font-size: 18px!important;
+    filter: grayscale(75%);
+}
+
+.content--section-container {
+    max-width: 700px;
+    /* padding: 0.18px 16px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content--about-heading {
+    text-align: center;
+    color: #fff;
+    padding: 64px 0px;
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+.content--heading--span {
+    font-family: "Segoe UI", Arial, sans-serif !important;
+    font-weight: 400;
+    letter-spacing: 4px;
+    background-color: black;
+    font-size: 18px !important;
+    padding: 0px 8px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.content--paragraph {
+    margin: 18px 0px;
+}
+
+.content--about-quote {
+    background-color: #f1f1f1!important;
+    border-left: 6px solid #ccc!important;
+    margin: 16px 0px;
+    padding: 0.18px 16px;
+}
+
+.content--section-heading {
+    text-align: center;
+    color: #fff;
+    padding: 48px 0px;
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+.content--menu-tablist-container {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.content--menu-nav-item-name {
+    width: 49.99%;
+    text-align: center;
+}
+
+.content--menu-tab-content-item {
+    margin: 10px 0px;
+    font-family: "Segoe UI", Arial, sans-serif !important;
+    font-size: 18px;
+}
+
+.content--menu-tab-content-description {
+    margin: 18px 0px;
+    color: #757575!important;
+}
+
+.container {
+    padding: 48px 16px;
+}
+
+.content--contact-input {
+    padding: 16px 8px;
+    width: 100%;
+}
+
+.content--contact-form-submit-button {
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+}
+
+.content--contact-form-submit-button:hover {
+    background-color: #ccc;
+    color: rgb(0, 0, 0);
+}
+
+.page-footer {
+    padding: 48px 0px;
+    text-align: center;
+    font-size: 18px;
+    color: #000!important;
+    background-color: #f1f1f1!important;
+}
+
+.page-footer>p>a {
+    color: #000;
+    text-decoration: underline;
+}
